@@ -1,0 +1,31 @@
+/* styles/WalletConnection.css */
+.wallet-connection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #f0f4f8;
+  }
+  
+  .wallet-connection-button {
+    background-color: #0a74da;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .wallet-connection-button:hover {
+    background-color: #0056a0;
+  }
+  
+  .wallet-connection-error {
+    color: #e74c3c;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
