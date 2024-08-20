@@ -12,7 +12,7 @@ const HistoricalData = ({ walletAddress }) => {
     const { start, end } = dateRange;
 
     // Example API call, you may need to replace this with a real API
-    const response = await axios.get(`https://api.example.com/historical`, {
+    const response = await axios.get(`api/tokens/list`, {
       params: { walletAddress, tokenAddress, start, end },
     });
 
